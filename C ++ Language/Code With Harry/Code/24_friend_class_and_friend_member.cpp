@@ -1,7 +1,7 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-    // Forward declaration
+// Forward declaration
 class Complex;
 
 class Calculator

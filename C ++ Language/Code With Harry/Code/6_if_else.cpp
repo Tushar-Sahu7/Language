@@ -1,11 +1,11 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
     // cout<<"This is tutorial 9";
     int age;
-    cout<< "Tell me your age"<<endl;
-    cin>>age;
+    cout << "Tell me your age" << endl;
+    cin >> age;
 
     // 1. Selection control structure: If else-if else ladder
     // if((age<18) && (age>0)){
@@ -24,21 +24,21 @@ int main()
     // 2. Selection control structure: Switch Case statements
     switch (age)
     {
-    case 18: 
-        cout<<"You are 18"<<endl;
+    case 18:
+        cout << "You are 18" << endl;
         break;
-    case 22: 
-        cout<<"You are 22"<<endl;
+    case 22:
+        cout << "You are 22" << endl;
         break;
-    case 2: 
-        cout<<"You are 2"<<endl;
+    case 2:
+        cout << "You are 2" << endl;
         break;
 
     default:
-    cout<<"No special cases"<<endl;
+        cout << "No special cases" << endl;
         break;
     }
 
-    cout<<"Done with switch case";
+    cout << "Done with switch case";
     return 0;
 }

@@ -6,9 +6,10 @@ class Complex
     int a, b;
 
 public:
-    Complex(){
+    Complex()
+    {
         a = 0;
-        b =0;
+        b = 0;
     }
 
     Complex(int x, int y)
@@ -17,12 +18,11 @@ public:
         b = y;
     }
 
-    Complex(int x){
+    Complex(int x)
+    {
         a = x;
         b = 0;
     }
-
-  
 
     void printNumber()
     {

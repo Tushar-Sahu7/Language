@@ -25,8 +25,9 @@ public:
         id = inpId;
         languageCode = 9;
     }
-    void getData(){
-        cout<<id<<endl;
+    void getData()
+    {
+        cout << id << endl;
     }
 };
 
@@ -36,8 +37,8 @@ int main()
     cout << harry.salary << endl;
     cout << rohan.salary << endl;
     Programmer skillF(10);
-    cout << skillF.languageCode<<endl;
-    cout << skillF.id<<endl;
+    cout << skillF.languageCode << endl;
+    cout << skillF.id << endl;
     skillF.getData();
     return 0;
 }
