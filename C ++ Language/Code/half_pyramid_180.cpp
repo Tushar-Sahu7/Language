@@ -8,11 +8,13 @@ int main()
 	{
 		for (int j = 1; j <= n; j++)
 		{
-			if(j<=n-i){
-			 cout<<"   ";
+			if (j <= n - i)
+			{
+				cout << "   ";
 			}
-			else{
-			 cout<<"*  ";
+			else
+			{
+				cout << "*  ";
 			}
 		}
 		cout << endl;

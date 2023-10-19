@@ -10,18 +10,18 @@ int main()
 		{
 			if (i == 1 || i == row)
 			{
-				std::cout << "*  ";
+				cout << "*  ";
 			}
 			else if (j == 1 || j == col)
 			{
-				std::cout << "*  ";
+				cout << "*  ";
 			}
 			else
 			{
-				std::cout << "   ";
+				cout << "   ";
 			}
 		}
-		cout<<endl;
+		cout << endl;
 	}
 	return 0;
 }

@@ -12,21 +12,21 @@ int setBit(int n, int pos)
 
 int clearBit(int n, int pos)
 {
-	int mask = ~(1<<pos);
-	return (n & mask );
+	int mask = ~(1 << pos);
+	return (n & mask);
 }
 
 int updateBit(int n, int pos, int value)
 {
-		int mask = ~(1<<pos);
-		n = n & mask;
+	int mask = ~(1 << pos);
+	n = n & mask;
 	return (n | (value << pos));
 }
 int main(int argc, char *argv[])
 {
 	cout << getBit(5, 2) << endl;
 	cout << setBit(5, 1) << endl;
-    cout << clearBit(5,2) <<endl;
-    cout << updateBit(5,1,1) << endl;
+	cout << clearBit(5, 2) << endl;
+	cout << updateBit(5, 1, 1) << endl;
 	return 0;
 }

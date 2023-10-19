@@ -18,7 +18,7 @@ void subset(int arr[], int n)
 
 int main(int argc, char *argv[])
 {
-	int arr[4] ={1,2,3,4};
-	subset(arr,4);
+	int arr[4] = {1, 2, 3, 4};
+	subset(arr, 4);
 	return 0;
 }

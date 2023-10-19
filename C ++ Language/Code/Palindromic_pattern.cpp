@@ -21,10 +21,10 @@ int main()
 		{
 			cout << ++k << "  ";
 		}
-		for( ;j<=(2*n-1);j++)
- {
- cout<<" ";
- }
+		for (; j <= (2 * n - 1); j++)
+		{
+			cout << " ";
+		}
 		cout << endl;
 	}
 	return 0;

@@ -6,9 +6,9 @@ int main(int argc, char *argv[])
 	int n;
 	cin >> n;
 	int reverse = 0;
-	//get the last digit
-	//update the n by removing the last digit
-	//store digits in reverse variable and print it
+	// get the last digit
+	// update the n by removing the last digit
+	// store digits in reverse variable and print it
 	while (n > 0)
 	{
 		int last_digit = n % 10;

@@ -5,8 +5,8 @@ int main(int argc, char *argv[])
 {
 	int n;
 	cin >> n;
-	//print last digit by diving the number by 10
-	//then updating the number by removing the last digit
+	// print last digit by diving the number by 10
+	// then updating the number by removing the last digit
 	while (n > 0)
 	{
 		int digit = n % 10;

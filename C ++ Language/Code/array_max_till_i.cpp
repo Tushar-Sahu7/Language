@@ -5,10 +5,10 @@ int Max_till_i(int arr[], int n)
 {
 	int mx = INT_MIN;
 	for (int i = 0; i < n; i++)
-{
-	mx = max(mx,arr[i]);
-	cout << mx << "   ";
-}
+	{
+		mx = max(mx, arr[i]);
+		cout << mx << "   ";
+	}
 }
 
 int main(int argc, char *argv[])
@@ -21,6 +21,6 @@ int main(int argc, char *argv[])
 		cin >> arr[i];
 	}
 
-Max_till_i(arr, n) ;
+	Max_till_i(arr, n);
 	return 0;
 }

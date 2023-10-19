@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 	string str = "aslkjffdsdfnjdssdfrfjf";
-	//convert into uppercase
+	// convert into uppercase
 	for (int i = 0; i < str.size(); i++)
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	cout << str << endl;
-	//convert into lowercase
+	// convert into lowercase
 	for (int i = 0; i < str.size(); i++)
 	{
 		if (str[i] >= 'A' && str[i] <= 'Z')
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	cout << str << endl;
-	//inbuild method
+	// inbuild method
 	transform(str.begin(), str.end(), str.begin(), ::toupper);
 	cout << str << endl;
 
